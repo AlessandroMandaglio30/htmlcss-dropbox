@@ -117,10 +117,10 @@ i{
 }
 
 .jumbo-text img{
-    width: 66%;
-    height: 80%;
+    width: 65%;
+    height: 50%;
     float: right;
-    margin-top: -23%;
+    margin-top: -25%;
 }
 
 /* DEBUG */

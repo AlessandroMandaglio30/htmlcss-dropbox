@@ -8,3 +8,83 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 100%;
+    margin: 0 0;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+            /* HEADER */
+
+header{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: white;
+} 
+
+#logo {
+    width: 30%;
+    float: left;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+#menu-destra{
+    text-align: center;
+}
+
+#menu-destra li{
+    float: left;
+    display: inline-block;
+    width: 11%;
+}
+
+#menu-destra li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav {
+    width: 55%;
+    float: left;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    color: black;
+    font-size: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* DEBUG */
+
+.debug .container{
+    height: 100%;
+    background-color: aqua;
+}
+

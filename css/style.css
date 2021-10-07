@@ -12,20 +12,25 @@ body{
 .container {
     width: 100%;
 }
+
+#jumbotron .container-jumbo{
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-} 
+}
 
             /* HEADER */
 
 header{
     width: 100%;
-    position: fixed;
     height: 80px;
 
-} 
+}
 
 .logo {
     width: 9%;
@@ -77,6 +82,33 @@ nav li a {
     text-decoration: none;
 }
 
+            /* JUMBOTRON */
+
+.jumbo-text{
+    margin: 0 50px;
+}
+
+.jumbo-text h1{
+    width: 80%;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 100px 0;
+}
+
+.jumbo-text p{
+    width: 30%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jumbo-text .btn-jumbo{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+}
+
 
 
 
@@ -87,4 +119,9 @@ nav li a {
     background-color: white;
     padding: 25px;
 }
+
+.debug .container-jumbo{
+    height: 700px;
+}
+
 

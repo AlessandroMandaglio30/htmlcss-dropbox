@@ -199,6 +199,13 @@ i{
     border-right: 1px solid lightgray;
 }
 
+.colonna4{
+    float: left;
+    margin-left: 30px;
+    width: 95%;
+    height: 300px;
+}
+
 #linea{
     width: 100%;
     margin-left: 0;
@@ -277,6 +284,27 @@ i{
      font-size: 20px;
      font-weight: bold;
  }
+
+ .colonna4 h4{
+    text-align: center;
+}
+
+.colonna4 i{
+    font-size: 15px;
+}
+
+.colonna4 h3{
+    font-size: 28px;
+}
+
+.colonna4 p{
+    margin-top: 25px;
+}
+
+.pulsante{
+    display: inline-block;
+    margin-left: 100%;
+}
 /* DEBUG */
 
 .debug .container{
@@ -300,6 +328,8 @@ i{
     background-color: lightskyblue;
 } */
 
-
+.debug .colonna4{
+    background-color: lime;
+}
 
 

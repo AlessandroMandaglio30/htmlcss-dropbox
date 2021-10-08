@@ -15,6 +15,10 @@
     background-color: cornflowerblue;
 }
 
+#main .container-main{
+    margin-top: 10%;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -127,8 +131,34 @@ i{
     margin-top: -25%;
 }
 
-
 /* MAIN */
+.container-main p{
+    margin-left: 200px;
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.container-main span{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.cerchio{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.cerchio-blu{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: 2px solid rgb(1,97,255);
+}
 
 /* DEBUG */
 

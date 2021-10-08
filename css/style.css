@@ -203,7 +203,6 @@ i{
     float: left;
     margin-left: 30px;
     width: 95%;
-    height: 300px;
 }
 
 #linea{
@@ -304,6 +303,7 @@ i{
 .pulsante{
     display: inline-block;
     margin-left: 100%;
+    margin-top: -29px;
 }
 /* DEBUG */
 

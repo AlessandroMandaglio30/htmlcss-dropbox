@@ -17,6 +17,9 @@
 
 #main .container-main{
     margin-top: 10%;
+    width: 80%;
+    margin-left:auto; 
+    margin-right:auto; 
 }
 
 .clearfix::after {
@@ -142,6 +145,7 @@ i{
 .container-main span{
     margin-left: 100px;
     font-size: 20px;
+    margin-top: 30px;
 }
 
 .cerchio{
@@ -160,6 +164,29 @@ i{
     border: 2px solid rgb(1,97,255);
 }
 
+.colonna{
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.colonna2{
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    margin-top: 30px;
+    height: 500px;
+}
+.colonna3{
+    float: left; 
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    margin-top: 30px;
+    height: 500px;
+}
+
 /* DEBUG */
 
 .debug .container{
@@ -170,6 +197,17 @@ i{
 
 .debug .container-jumbo{
     height: 800px;
+}
+
+
+.debug .colonna{
+    background-color: lightgreen;
+}
+.debug .colonna2{
+    background-color: lightsalmon;
+}
+.debug .colonna3{
+    background-color: lightskyblue;
 }
 
 

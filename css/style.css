@@ -21,66 +21,64 @@
     clear: both;
 }
 
-            /* HEADER */
-
-header{
-    width: 100%;
-    height: 80px;
-    padding-top: 10px;
-
-}
-
-.logo {
-    width: 9%;
-    float: left;
-}
-
-.logo img{
-    vertical-align: middle;
-}
-
-#menu-destra{
-    text-align: center;
-}
-
-#menu-destra li{
-    width: 12%;
-    float: left;
-    list-style: none;
-}
-
-#menu-destra li a{
+a{
     color: black;
-    font-size: 16px;
+    text-decoration: none;
+}
+         /***** BTN *****/
+.btn {
+    padding: 5px 15px;
     text-decoration: none;
 }
 
-nav {
-    width: 49%;
-    float: left;
-    text-align: center;
+.blu {
+    background-color: #0061ff;
+    color: white;
 }
 
-nav li {
+
+        /***** HEADER *****/
+header {
+    height: 80px;
+    line-height: 76px;
+    border-bottom: 1px solid gray;
+}
+
+nav#main-nav ul {
+    float: left;
+}
+
+nav#main-nav ul:last-child {
+    float: right;
+}
+
+nav#main-nav li {
     display: inline-block;
     list-style: none;
 }
 
-nav li a {
-    color: black;
-    font-size: 16px;
-    margin-left: 15px;
-    text-decoration: none;
+nav#main-nav li:hover {
+    border-bottom: 2px solid black;
 }
 
-.btn{
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
+#logo img {
+    vertical-align: text-bottom;
 }
 
-            /* JUMBOTRON */
+nav#main-nav a {
+    margin: 0 18px;
+    display: inline-block;
+}
+
+nav#main-nav a.btn {
+    display: inline;
+}
+
+nav#main-nav li#logo:hover,
+nav#main-nav li.last:hover {
+    border-bottom: none;
+}
+        /***** JUMBOTRON *****/
 
 .jumbo-text{
     margin: 0 40px;
@@ -122,6 +120,9 @@ i{
     float: right;
     margin-top: -25%;
 }
+
+
+/* MAIN */
 
 /* DEBUG */
 

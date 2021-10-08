@@ -203,6 +203,11 @@ i{
     float: left;
     margin-left: 30px;
     width: 95%;
+    height: 300px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 #linea{
@@ -300,11 +305,18 @@ i{
     margin-top: 25px;
 }
 
-.pulsante{
-    display: inline-block;
-    margin-left: 100%;
-    margin-top: -29px;
+.sinistra{
+    float: left;
+    width: 60%;
 }
+
+.destra{
+    float: left;
+    width: 40%;
+    padding: 0px;
+}
+
+
 /* DEBUG */
 
 .debug .container{
@@ -328,8 +340,8 @@ i{
     background-color: lightskyblue;
 } */
 
-.debug .colonna4{
+/* .debug .colonna4{
     background-color: lime;
-}
+} */
 
 

@@ -111,7 +111,7 @@ nav#main-nav li.last:hover {
 
 .jumbo-text .btn-jumbo{
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgb(1,97,255);
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -136,14 +136,14 @@ i{
 
 /* MAIN */
 .container-main p{
-    margin-left: 200px;
+    margin-left: 30px;
     font-size: 50px;
     font-weight: 1000;
     margin-bottom: 30px;
 }
 
 .container-main span{
-    margin-left: 100px;
+    margin-left: 15px;
     font-size: 20px;
     margin-top: 30px;
 }
@@ -163,30 +163,120 @@ i{
     border-radius: 50%;
     border: 2px solid rgb(1,97,255);
 }
-
+                   /* COLONNE */
 .colonna{
     float: left;
-    width: calc(100% / 3 - 20px);
-    margin: 10px;
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
     margin-top: 30px;
-    height: 500px;
+    height: 1000px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 .colonna2{
     float: left;
-    width: calc(100% / 3 - 20px);
-    margin: 10px;
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
     margin-top: 30px;
-    height: 500px;
+    height: 1000px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 .colonna3{
     float: left; 
-    width: calc(100% / 3 - 20px);
-    margin: 10px;
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
     margin-top: 30px;
-    height: 500px;
+    height: 1000px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
+#linea{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+                  /* TESTO COLONNE */
+.colonna h4{
+    text-align: center;
+}
+.colonna i{
+    font-size: 15px;
+}
+
+.capo-text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: 1000;
+}
+
+.costo{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 1000;
+}
+
+.durata{
+    margin-left: 20px;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 1000;
+}
+
+.tabella p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tabella a{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tabella hr{
+    width: 30%;
+    margin-left: 10px;
+    color: lightgray;
+}
+
+.colonna2 h4{
+    text-align: center;
+}
+
+.colonna2 i{
+    font-size: 15px;
+}
+
+.colonna3 h4{
+    text-align: center;
+}
+
+.colonna3 i{
+    font-size: 15px;
+}
+
+.tabella h3{
+     margin-left: 20px;
+     margin-top: 20px;
+     font-size: 20px;
+     font-weight: bold;
+ }
 /* DEBUG */
 
 .debug .container{
@@ -200,15 +290,15 @@ i{
 }
 
 
-.debug .colonna{
+/* .debug .colonna{
     background-color: lightgreen;
-}
-.debug .colonna2{
+} */
+/* .debug .colonna2{
     background-color: lightsalmon;
-}
-.debug .colonna3{
+} */
+/* .debug .colonna3{
     background-color: lightskyblue;
-}
+} */
 
 
 

@@ -345,6 +345,80 @@ i{
    padding: 10px 15px;
 }
 
+.main2 h2{
+    margin-left: 160px;
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+/* IMG SECONDA PARTE DI MAIN */
+.divisione h3{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.divisione p{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+.sottolinea{
+    text-decoration: underline;
+}
+.divisione img{
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+
+.quadrato1{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+.quadrato2{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+
+.quadrato3{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+
+.quadrato4{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+
+.quadrato5{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+
+.quadrato6{
+    float:left; 
+    display:block; 
+    width:28%; 
+    height:28%;
+}
+
 /* DEBUG */
 
 .debug .container{
@@ -371,5 +445,3 @@ i{
 /* .debug .colonna4{
     background-color: lime;
 } */
-
-

@@ -337,7 +337,12 @@ i{
 }
 
 .btn-sin{
-    
+   display: inline-block; 
+   margin-top: 15px;
+   border: 2px solid black;
+   font-size: 15px;
+   font-weight: 800;
+   padding: 10px 15px;
 }
 
 /* DEBUG */

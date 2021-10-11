@@ -96,6 +96,7 @@ nav#main-nav li.last:hover {
 .jumbo-text{
     margin: 0 40px;
 }
+
 .jumbo-text h1{
     width: 80%;
     font-weight: 700;
@@ -187,6 +188,7 @@ i{
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
 }
+
 .colonna3{
     float: left; 
     width: calc(100% / 3 - 60px);
@@ -219,6 +221,7 @@ i{
 .colonna h4{
     text-align: center;
 }
+
 .colonna i{
     font-size: 15px;
 }
@@ -242,7 +245,7 @@ i{
 
 .durata{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 19px;
     color: lightgray;
     font-weight: 1000;
 }
@@ -255,7 +258,7 @@ i{
 
 .tabella a{
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -316,7 +319,7 @@ i{
     padding: 0px;
 }
 
-/* IMMAGINI NEL MAIN */
+             /* IMMAGINI NEL MAIN */
 
 .img-destra img{
     width: 30%;
@@ -332,6 +335,7 @@ i{
     margin-top: -360px;
     width: 30%;
 }
+
 .img-sinistra h3{
     margin-bottom: 25px;
     font-size: 30px;
@@ -354,7 +358,7 @@ i{
 }
 
 
-/* IMG SECONDA PARTE DI MAIN */
+               /* IMG SECONDA PARTE DI MAIN */
 .divisione h3{
     margin-top: 10px;
     margin-left: 150px;
@@ -370,6 +374,7 @@ i{
 .sottolinea{
     text-decoration: underline;
 }
+
 .divisione img{
     width: 50%;
     height: 50%;
@@ -383,6 +388,7 @@ i{
     width:28%; 
     height:28%;
 }
+
 .img2{
     float:left; 
     display:block; 
@@ -418,7 +424,7 @@ i{
     height:28%;
 }
 
-/* MAIN QUADRATI */
+                   /* MAIN QUADRATI */
 
 .main3{
     margin-top: 15%;
@@ -437,17 +443,20 @@ i{
     color: blue;
     text-decoration: underline;
 }
+
 .sezione-quadrati{
     margin-top: 80px;
     background-color: rgb(171, 231, 231);
     height: 100vh;
     position: relative;
 }
+
 .quadrati{
     width: 30vw;
     height: 30vw;
     float: left;
 }
+
 .quadrato{
     width: 15vw;
     height: 15vw;
@@ -456,36 +465,43 @@ i{
 
 }
 
-/* COLORI QUADRATI SINISTRA */
+             /* COLORI QUADRATI SINISTRA */
 
 #designit{
      background-color: rgba(109, 199, 97, 0.924);
      border: 12px solid rgb(213, 255, 149);
  }
+
  #arizona{
      background-color: rgb(114, 49, 49);
  }
+
  #florida{
      background-color: rgb(38, 105, 194);
  }
+
  #topps{
      background-color: rgb(248, 44, 44);
  }
 
- /* COLORI QUADRI DESTRA */
+              /* COLORI QUADRI DESTRA */
 
 #bicycle{
     background-color: rgb(202, 37, 37);
 }
+
 #hearst{
     background-color: rgb(132, 190, 190);
 }
+
 #planet{
     background-color:rgb(16, 16, 207);
 }
+
 #clear{
     background-color: rgba(255, 216, 48, 1);
 }
+
 .quadrato img{
     width: 50%;
     display:block;
@@ -508,11 +524,13 @@ i{
 .riquadro img{
     width: calc(15vw / 2) 
 }
+
 .riquadro hr{
     margin-top: 20px;
     width: 10%;
     color: rgb(229, 226, 226);
 }
+
 .riquadro p{
     margin-top: 40px;
     font-size: 15px;
@@ -536,12 +554,13 @@ i{
     bottom: 17%;
 }
 
-/* DOMANDE */
+                   /* DOMANDE */
 
 #domande{
     margin-top: 150px;
     margin-left: 150px;
 }
+
 #domande h4{
     font-size: 30px;
     margin-bottom: 20px;
@@ -556,12 +575,13 @@ i{
     border-top: 1px solid lightgray;
     width: 80%;
 }
+
 #domande i{
     font-size: 15px;
     margin-left: 40%;
 }
 
-/* FOOTER */
+                      /* FOOTER */
 .container-footer{
     margin-top: 150px;
     margin-left: 120px;
@@ -569,12 +589,13 @@ i{
     position: relative;
 }
 
-/* LISTA */
+                    /* LISTA */
 
 .footer-list{
     float: left;
     margin-top: 50px;
 }
+
 .footer-list h4{
     display: inline-block;
     margin-top: 10%;
@@ -589,11 +610,13 @@ i{
     margin-top: 20px; 
     color: white; 
 }
+
 .footer-list2{
     float: left;
     margin-left: 100px;
     margin-top: 50px;
 }
+
 .footer-list2 h4{
     display: inline-block;
     margin-top: 10%;
@@ -614,6 +637,7 @@ i{
     margin-left: 100px;
     margin-top: 50px;
 }
+
 .footer-list3 h4{
     display: inline-block;
     margin-top: 10%;
@@ -634,6 +658,7 @@ i{
     margin-left: 100px;
     margin-top: 50px;
 }
+
 .footer-list4 h4{
     display: inline-block;
     margin-top: 10%;
@@ -654,6 +679,7 @@ i{
     margin-left: 100px;
     margin-top: 50px;
 }
+
 .footer-list5 h4{
     display: inline-block;
     margin-top: 10%;
@@ -681,7 +707,7 @@ i{
     font-size: 12px;
     color: #bec4c9;
 }
-/* DEBUG */
+                   /* DEBUG */
 
 .debug .container{
     height: 100%;
@@ -692,7 +718,6 @@ i{
 .debug .container-jumbo{
     height: 800px;
 }
-
 
 /* .debug .colonna{
     background-color: lightgreen;

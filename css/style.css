@@ -317,6 +317,7 @@ i{
 }
 
 /* IMMAGINI NEL MAIN */
+
 .img-destra img{
     width: 30%;
     height: 30%;
@@ -452,9 +453,12 @@ i{
     height: 15vw;
     float: left;
     position: relative;
+
 }
+
 /* COLORI QUADRATI SINISTRA */
- #designit{
+
+#designit{
      background-color: rgba(109, 199, 97, 0.924);
      border: 12px solid rgb(213, 255, 149);
  }
@@ -467,7 +471,9 @@ i{
  #topps{
      background-color: rgb(248, 44, 44);
  }
-/* COLORI QUADRI DESTRA */
+
+ /* COLORI QUADRI DESTRA */
+
 #bicycle{
     background-color: rgb(202, 37, 37);
 }
@@ -530,6 +536,36 @@ i{
     bottom: 17%;
 }
 
+/* DOMANDE */
+
+#domande{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+#domande h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#domande h5{
+    font-size: 15px;
+    font-weight: 1000;
+    vertical-align: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    width: 80%;
+}
+#domande i{
+    font-size: 15px;
+    margin-left: 40%;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 150px;
+    width: 100%;
+}
 /* DEBUG */
 
 .debug .container{
@@ -556,3 +592,8 @@ i{
 /* .debug .colonna4{
     background-color: lime;
 } */
+
+.debug footer{
+    height: 500px;
+    background-color: black;
+}

@@ -376,47 +376,158 @@ i{
     margin-top: 100px;
 }
 
-
-
-.quadrato1{
+.img1{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
 }
-.quadrato2{
+.img2{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
 }
 
-.quadrato3{
+.img3{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
 }
 
-.quadrato4{
+.img4{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
 }
 
-.quadrato5{
+.img5{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
 }
 
-.quadrato6{
+.img6{
     float:left; 
     display:block; 
     width:28%; 
     height:28%;
+}
+
+/* MAIN QUADRATI */
+
+.main3{
+    margin-top: 15%;
+    margin-left: 150px;
+}
+
+.main3 h4{
+    margin-bottom: -10px;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.main3 a{
+    display: inline-block;
+    margin-top: 45px;
+    color: blue;
+    text-decoration: underline;
+}
+.sezione-quadrati{
+    margin-top: 80px;
+    background-color: rgb(171, 231, 231);
+    height: 100vh;
+    position: relative;
+}
+.quadrati{
+    width: 30vw;
+    height: 30vw;
+    float: left;
+}
+.quadrato{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    position: relative;
+}
+/* COLORI QUADRATI SINISTRA */
+ #designit{
+     background-color: rgba(109, 199, 97, 0.924);
+     border: 12px solid rgb(213, 255, 149);
+ }
+ #arizona{
+     background-color: rgb(114, 49, 49);
+ }
+ #florida{
+     background-color: rgb(38, 105, 194);
+ }
+ #topps{
+     background-color: rgb(248, 44, 44);
+ }
+/* COLORI QUADRI DESTRA */
+#bicycle{
+    background-color: rgb(202, 37, 37);
+}
+#hearst{
+    background-color: rgb(132, 190, 190);
+}
+#planet{
+    background-color:rgb(16, 16, 207);
+}
+#clear{
+    background-color: rgba(255, 216, 48, 1);
+}
+.quadrato img{
+    width: 50%;
+    display:block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    filter: invert(1);
+}
+
+.riquadro{
+    background-color: rgb(245, 245, 245);
+    float: left;
+    height: 30vw;
+    width: calc(100% - 60vw);
+    padding: 50px;
+    overflow: auto;
+}
+
+.riquadro img{
+    width: calc(15vw / 2) 
+}
+.riquadro hr{
+    margin-top: 20px;
+    width: 10%;
+    color: rgb(229, 226, 226);
+}
+.riquadro p{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.sezione-quadrati h4{
+    color: darkred;
+    padding-top: 38%;
+    margin-left: 250px;
+    font-size: 35px;
+    width: 30%;
+}
+
+.btn-quadrati{
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: #ebebeb;
+    position: absolute;
+    left: 60%;
+    bottom: 17%;
 }
 
 /* DEBUG */
